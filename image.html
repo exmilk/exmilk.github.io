@@ -5,13 +5,19 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="hidden" name="tbm" value="isch">
-            <input type="hidden" name="sclient" value="img">
-            <input type="submit" value="Google Image Search">
-        </form>
-        <a href="https://exmilk.github.io">Back to search</a>
+        <div class="container">
+            <div class="links">
+                <a href="https://exmilk.github.io">Back to search</a>
+            </div> 
+            <div class="search">
+                <form class="searchForm" action="https://www.google.com/search">
+                    <input class="simpleSearchInput" type="text" name="q">
+                    <input type="hidden" name="tbm" value="isch">
+                    <input type="hidden" name="sclient" value="img">
+                    <input type="submit" value="Google Image Search">
+                </form>
+            </div> 
+        </div>
     </body>
 </html>
 

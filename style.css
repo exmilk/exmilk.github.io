@@ -1,0 +1,102 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.searchAdvanced {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 500px;
+}
+
+.searchForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchFormAdvanced {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.simpleSearchInput {
+    border-radius: 20px;
+    border-width: 1px;
+    width: 350px;
+    height: 30px;
+    margin: 5px;
+    padding-left: 10px;
+}
+
+.advancedSearchInput {
+    border-width: 1px;
+    width: 450px;
+    height: 30px;
+    margin: 5px;
+    padding-left: 10px;
+}
+
+.divInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.submitButton {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+.submitButton > input[type=submit] {
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: white;
+    height: 30px;
+}
+
+p {
+    max-width: 175px;
+    margin-right: 20px;
+}
+
+input[type=submit]{
+    width: 150px;
+}
+
+a {
+    margin-right: 5px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+
